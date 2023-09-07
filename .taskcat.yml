@@ -1,5 +1,5 @@
 project:
-  name: quickstart-taskcat-ci
+  name: cfn-ps-taskcat-ci
   owner: quickstart-eng@amazon.com
   shorten_stack_name: true
   package_lambda: true
