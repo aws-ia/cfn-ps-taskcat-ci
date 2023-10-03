@@ -1,3 +1,13 @@
 // Include any postdeployment steps here, such as steps necessary to test that the deployment was successful. If there are no postdeployment steps, leave this file empty.
 
 == Postdeployment steps
+
+. Sign in to the https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#[AWS Management Console^] and open the CloudFormation console.
+. In the left navigation pane, choose *Stacks*.
+. On the *Stacks* page, choose the TaskCat CI/CD stack.
+. Choose the *Outputs* tab.
+. Choose the *URL* link to load the new CI/CD pipeline running in the CodePipeline console. <<pipeline1>> shows the pipeline running in the CodePipeline console.
+
+[#pipeline1]
+.CI/CD pipeline for the templates in your GitHub repository
+image::../docs/deployment_guide/images/codepipeline.png[CodePipeline CI/CD pipeline]
